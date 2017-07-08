@@ -5,4 +5,5 @@
 <em><%= @portfolio_items.subtitle %></em>
 <p><%= @portfolio_items.body %></p>
 
-<%= link_to "Edit item", edit_portfolio_path(@portfolio_items.id) %>
+<%= link_to "Edit item", edit_portfolio_path(@portfolio_items) %>
+<%= link_to "Delete item", portfolio_path(@portfolio_items), method: :delete, data: { confirm: "Are you sure?"} %>
