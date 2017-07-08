@@ -28,8 +28,8 @@ puts "5 skills created"
     title: "Porfolio title: #{portfolio_item}",
     subtitle: "My service",
     body: "Pig turducken leberkas jerky shoulder, short loin sirloin ham. Sirloin salami pig short loin brisket biltong. Sausage capicola short loin picanha. Pancetta shank fatback jerky rump. Cow beef jowl cupim, meatball fatback pork loin turkey",
-    main_image: "http://placeholder.com/600x400",
-    thumb_image: "http://placeholder.com/350x200"
+    main_image: "http://via.placeholder.com/600x400",
+    thumb_image: "http://via.placeholder.com/350x200"
   )
 end
 
