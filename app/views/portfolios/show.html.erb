@@ -12,3 +12,7 @@
 
 <%= link_to "Edit item", edit_portfolio_path(@portfolio_items) %>
 <%= link_to "Delete item", portfolio_path(@portfolio_items), method: :delete, data: { confirm: "Are you sure?"} %>
+<hr>
+<%= params.inspect %>
+<hr>
+<%= session.inspect %>
