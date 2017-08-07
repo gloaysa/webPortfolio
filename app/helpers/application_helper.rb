@@ -16,4 +16,8 @@ module ApplicationHelper
     end
   end
 
+  def copyright_generator
+    LoaysaViewTool::Renderer.copyright 'Guillermo Loaysa', 'made with &hearts; and ☕️ by'
+  end
+
 end
