@@ -10,8 +10,8 @@
   <p> <%= t.name %> </p>
 <% end %>
 
-<%= link_to "Edit item", edit_portfolio_path(@portfolio_items) %>
-<%= link_to "Delete item", portfolio_path(@portfolio_items), method: :delete, data: { confirm: "Are you sure?"} %>
+<%= link_to "Edit item", edit_portfolio_path(@portfolio_items) if logged_in?(:site_admin) %>
+<%= link_to "Delete item", portfolio_path(@portfolio_items), method: :delete, data: { confirm: "Are you sure?"} if logged_in?(:site_admin) %>
 <hr>
 <%= params.inspect %>
 <hr>
